@@ -1,35 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
+import Aboutme from './components/aboutme';
+import Portfolio from './components/Portfolio';
+import RoadMap from './components/Roadmap';
+
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <TabGroup>
+        <TabList>
+          <Tab className="text-gray-500">About Me</Tab>
+          <Tab className="text-gray-500">Roadmap</Tab>
+          <Tab className="text-gray-500">Portfolio</Tab>          
+        </TabList>
+        <TabPanels>
+          <TabPanel>
+            <Aboutme />
+          </TabPanel>
+          <TabPanel>
+            <RoadMap />
+          </TabPanel>
+          <TabPanel>
+            <Portfolio />
+          </TabPanel>
+        </TabPanels>
+      </TabGroup>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
