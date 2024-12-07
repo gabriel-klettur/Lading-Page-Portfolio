@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <TabGroup>
-        <TabList>
+        <TabList className="flex justify-center space-x-4">
           <Tab className="text-gray-500">About Me</Tab>
           <Tab className="text-gray-500">Roadmap</Tab>
           <Tab className="text-gray-500">Portfolio</Tab>          
