@@ -1,8 +1,7 @@
 const Aboutme = () => {
     return (
         <div className="bg-gray-50 text-gray-800 font-sans">
-          {/* Header - simple spacer or placeholder */}
-          <header className="bg-gray-900 h-16"></header>
+          
     
           {/* Main Section */}
           <section className="px-6 sm:px-12 py-12 max-w-4xl mx-auto">
