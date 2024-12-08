@@ -39,7 +39,7 @@ const Roadmap = () => {
     return (
         <div className="bg-gray-50 py-20">
             <h1 className="text-center text-4xl font-extrabold text-gray-900 mb-10">
-                Roadmap
+                My Roadmap
             </h1>
             <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16">
                 Here you can explore my academic goals and certifications, as well as my project development plans. 
