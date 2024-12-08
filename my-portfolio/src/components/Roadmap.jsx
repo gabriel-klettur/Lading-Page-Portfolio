@@ -4,37 +4,43 @@ const Roadmap = () => {
         {
             quarter: 'Q4 2024',
             academic: [
-                'Finalizar la certificación AWS Cloud Practitioner',
-                'Completar curso avanzado de Redux y RTK'
+                'Self-study of Pine Script to develop advanced trading strategies in TradingView',
             ],
             projects: [
-                'Finalizar la lógica de Pelusa Trader',
-                'Desarrollo de la API de backend para Pelusa Trader'
+                'Development of Pelusa Trader: Frontend, Backend, and Documentation',
             ]
         },
         {
             quarter: 'Q1 2025',
             academic: [
-                'Iniciar la certificación AWS Solutions Architect',
-                'Participar en un Hackathon de 48 horas'
+                'Machine Learning with Python: from Linear Models to Deep Learning (MITx)',
             ],
             projects: [
-                'Desarrollar la interfaz de usuario de Open Gastro',
-                'Probar estrategias avanzadas en Pelusa Trader'
+                'Continued development of Pelusa Trader: Frontend, Backend, and Documentation',
+                'Creation of Pine Script strategies for testing within Pelusa Trader'
             ]
         },
         {
             quarter: 'Q2 2025',
             academic: [
-                'Certificación AWS Solutions Architect completada',
-                'Curso de diseño de UI/UX avanzado'
+                'Completion of the course "Machine Learning with Python: from Linear Models to Deep Learning" (MITx)',
             ],
             projects: [
-                'Despliegue de Pelusa Trader en producción',
-                'Pruebas iniciales de Open Gastro'
+                'Completion of Pelusa Trader',
+                'Initiation of Open Gastro development',
+            ]
+        },
+        {
+            quarter: 'Q3 2025',
+            academic: [
+                'Oxford Algorithmic Trading Programme (Oxford University)',
+            ],
+            projects: [
+                'Development of Open Gastro',
             ]
         }
     ];
+    
 
     return (
         <div className="bg-gray-50 py-20">
