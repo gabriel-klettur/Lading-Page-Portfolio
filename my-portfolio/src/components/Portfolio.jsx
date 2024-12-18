@@ -5,18 +5,19 @@ const Portfolio = () => {
     const projects = [
         {
             title: 'Pelusa Trader',
-            description: 'An application for automated trading, focused on optimizing capital management and investment strategies.',
+            description: 'Pelusa Trader is a comprehensive automated trading platform designed to optimize capital management and investment strategies. The application features a frontend built with JavaScript, React, and Redux, while the backend is developed using Python, Uvicorn, and FastAPI. Additionally, Pine Script from TradingView is utilized for the automated generation of market alerts, enabling greater precision and agility in decision-making.',
+            
             developmentPeriod: 'Development Period: November 26 2024 - April 1-15 2025',
             image: imagePelusaTrader, 
             link: 'https://www.beelzebot.com/pelusa-trader/',
-            repositories: {
-                documentation: 'https://github.com/Beelzebot777/Pelusa-Docs-Public',
-                frontend: 'https://github.com/Beelzebot777/Pelusa-FrontEnd-Strateger-Public',
-                backend1: 'https://github.com/Beelzebot777/Pelusa-BackEnd-Strateger-Public',
-                backend2: 'https://github.com/Beelzebot777/Pelusa-Backend-AlarmHugger',                
-                pinescript: 'https://github.com/Beelzebot777/Algorithmic-Trading-PineScript'
-            },
-            githubProject: 'https://github.com/users/Beelzebot777/projects/8/views/3?filterQuery=-repo%3ABeelzebot777%2FPelusa-Backend-AlarmHugger%2CBeelzebot777%2FAlgorithmic-Trading-PineScript'
+            repositories: [
+                { name: 'Documentation', url: 'https://github.com/Beelzebot777/Pelusa-Docs-Public' },
+                { name: 'Frontend', url: 'https://github.com/Beelzebot777/Pelusa-FrontEnd-Strateger-Public' },
+                { name: 'Backend Strateger', url: 'https://github.com/Beelzebot777/Pelusa-BackEnd-Strateger-Public' },
+                { name: 'Backend AlarmHugger', url: 'https://github.com/Beelzebot777/Pelusa-Backend-AlarmHugger' },
+                { name: 'PineScript Strategies', url: 'https://github.com/Beelzebot777/Algorithmic-Trading-PineScript' }
+            ],
+            githubProject: 'https://github.com/users/Beelzebot777/projects/8/views/3'
         },
         {
             title: 'Open Gastro',
@@ -87,10 +88,11 @@ const Portfolio = () => {
 
                             {project.title === 'Pelusa Trader' && (
                                 <div className="mt-6 flex flex-wrap gap-4">
-                                    {Object.entries(project.repositories).map(([key, url]) => (
+                                    
+                                    {project.repositories.map((repo, index) => (
                                         <a 
-                                            key={key} 
-                                            href={url} 
+                                            key={index} 
+                                            href={repo.url} 
                                             target="_blank" 
                                             rel="noopener noreferrer" 
                                             className="flex items-center px-4 py-2 text-sm text-white bg-indigo-600 hover:bg-indigo-700 rounded-md transition-colors duration-300"
@@ -98,9 +100,10 @@ const Portfolio = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="white">
                                                 <path d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577v-2.024c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.755-1.333-1.755-1.089-.745.082-.729.082-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.494.997.107-.775.42-1.305.763-1.605-2.665-.303-5.466-1.335-5.466-5.931 0-1.311.469-2.382 1.236-3.222-.124-.303-.536-1.524.118-3.176 0 0 1.008-.323 3.301 1.23A11.52 11.52 0 0112 6.807c1.02.004 2.046.138 3.003.404 2.292-1.553 3.3-1.23 3.3-1.23.655 1.653.243 2.874.119 3.176z" />
                                             </svg>
-                                            {key.charAt(0).toUpperCase() + key.slice(1)} Repository
+                                            {repo.name}
                                         </a>
                                     ))}
+
                                 </div>
                             )}
 
