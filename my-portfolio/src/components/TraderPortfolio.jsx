@@ -6,12 +6,12 @@ const TraderPortfolio = () => {
         {
             title: "Interactive Brokers Report 2023",
             previewImage: imageTraderPortfolio_v1,
-            pdfLink: "/assets/IBKR_Activity_Statement_2023.pdf"
+            pdfLink: "/IBKR_Activity_Statement_2023.pdf"
         },
         {
             title: "Interactive Brokers Report 2024",
             previewImage: imageTraderPortfolio_v2,
-            pdfLink: "/assets/IBKR_Activity_Statement_2024.pdf"
+            pdfLink: "/IBKR_Activity_Statement_2024.pdf"
         }
     ];
 
