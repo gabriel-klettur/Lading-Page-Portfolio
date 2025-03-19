@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Aboutme from './components/aboutme';
+import Aboutme from './components/Aboutme';
 import Portfolio from './components/Portfolio';
 import RoadMap from './components/Roadmap';
 
