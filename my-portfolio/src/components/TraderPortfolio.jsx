@@ -21,6 +21,19 @@ const TraderPortfolio = () => {
                 <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Trader Portfolio</h1>
             </div>
 
+
+{/* 🔹 Resumen de Resultados */}
+<div className="text-center max-w-3xl mx-auto mb-12 p-6 bg-white shadow-lg rounded-lg">
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">📈 Trading Performance Summary</h2>
+                <p className="text-lg text-gray-700">
+                    In 2023, a total return of <strong className="text-green-600">+29.95%</strong> was achieved, followed by a significant increase of
+                    <strong className="text-green-600"> +103.85%</strong> in 2024. 
+                    The primary focus was on trading companies within the <strong>S&P 500</strong> and <strong>Nasdaq</strong>, leveraging advanced 
+                    technical and fundamental analysis strategies.
+                </p>
+            </div>
+            
+
             {/* Reportes en la parte superior */}
             <div className="flex justify-center px-6 sm:px-12 max-w-5xl mx-auto mb-12">
                 <div className="group block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white p-6">
