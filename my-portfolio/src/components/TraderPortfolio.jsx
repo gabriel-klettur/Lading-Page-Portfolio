@@ -31,7 +31,9 @@ const TraderPortfolio = () => {
                             <a 
                                 key={index}
                                 href={file.pdfLink} 
-                                download={file.pdfLink.split('/').pop()} // Asegura la descarga del archivo
+                                download
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="relative overflow-hidden rounded-lg block"
                             >
                                 <img 
