@@ -16,7 +16,7 @@ function App() {
         <TabList className="flex justify-center space-x-4">
           <Tab className="text-gray-500">About Me</Tab>
           <Tab className="text-gray-500">Roadmap</Tab>
-          <Tab className="text-gray-500">Web Developer Portfolio</Tab>          
+          <Tab className="text-gray-500">Software Developer Portfolio</Tab>          
           <Tab className="text-gray-500">Trader Portfolio</Tab>          
         </TabList>
         <TabPanels>

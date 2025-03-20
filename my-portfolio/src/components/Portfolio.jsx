@@ -19,10 +19,7 @@ const Portfolio = () => {
     return (
         <div className="bg-gray-50 py-20">
             <div className="text-center mb-16">
-                <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Portfolio</h1>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Discover one of the most impactful projects I’ve worked on. Click below to see details and learn more about the technologies, goals, and challenges I tackled.
-                </p>
+                <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Portfolio</h1>                
             </div>
 
             <div className="flex justify-center px-6 sm:px-12 max-w-5xl mx-auto">
