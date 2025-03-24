@@ -18,16 +18,16 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="bg-background text-textPrimary py-20 px-4 sm:px-6">
-      <div className="text-center mb-16">
-        <h1 className="text-4xl font-extrabold text-primary mb-4">Portfolio</h1>
+    <div className="bg-background text-textPrimary py-4 px-0">
+      <div className="text-center mb-12">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-primary mb-4">Portfolio</h1>
       </div>
 
       <div className="flex justify-center max-w-5xl mx-auto">
-        <div className="group block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-panel border border-border p-6">
+        <div className="group block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-panel p-0 sm:p-4">
 
           {/* Imágenes del proyecto */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <a
               href="https://beelzebot.com/pelusa-trader/"
               target="_blank"
@@ -37,7 +37,7 @@ const Portfolio = () => {
               <img
                 src={imagePelusaTrader_v1}
                 alt="Pelusa Trader V1"
-                className="w-full h-64 object-cover transition-transform duration-500 hover:scale-105"
+                className="w-full h-52 sm:h-64 object-cover transition-transform duration-500 hover:scale-105"
               />
               <span className="absolute top-2 left-2 bg-gray-900 text-white text-xs font-semibold px-3 py-1 rounded-md opacity-90">
                 Version 1
@@ -53,7 +53,7 @@ const Portfolio = () => {
               <img
                 src={imagePelusaTrader_v2}
                 alt="Pelusa Trader V2"
-                className="w-full h-64 object-cover transition-transform duration-500 hover:scale-105"
+                className="w-full h-52 sm:h-64 object-cover transition-transform duration-500 hover:scale-105"
               />
               <span className="absolute top-2 left-2 bg-gray-900 text-white text-xs font-semibold px-3 py-1 rounded-md opacity-90">
                 Version 2
@@ -63,11 +63,12 @@ const Portfolio = () => {
 
           {/* Detalles del Proyecto */}
           <div className="mt-6">
-            <h2 className="text-2xl font-semibold text-primary group-hover:text-accent transition-colors duration-300">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary group-hover:text-accent transition-colors duration-300">
               {project.title}
             </h2>
-            <p className="mt-4 text-textSecondary">{project.description}</p>
-            <p className="mt-4 text-sm text-gray-400 italic">{project.developmentPeriod}</p>
+            <p className="mt-4 text-sm sm:text-base text-textSecondary">{project.description}</p>
+            <p className="mt-4 text-xs sm:text-sm text-gray-400 italic">{project.developmentPeriod}</p>
+
 
             {/* Repositorios */}
             <div className="mt-6 flex flex-wrap gap-4">
