@@ -3,6 +3,7 @@ import Aboutme from './components/Aboutme';
 import Portfolio from './components/Portfolio';
 import RoadMap from './components/Roadmap';
 import TraderPortfolio from './components/TraderPortfolio';
+import Footer from './components/Footer';
 
 import {
   Tab,
@@ -41,7 +42,9 @@ function App() {
           </TabPanels>
         </TabGroup>
       </div>
+      <Footer />
     </div>
+    
   );
 }
 
