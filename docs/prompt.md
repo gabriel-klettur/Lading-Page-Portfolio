@@ -3,7 +3,7 @@
 
 #### Estamos desarrollando el portfolio para presentarme como desarrollador de software 'full stackdeveloper'
 
-Las tecnologias principalmente utilizadas son: 
+Las tecnologias principalmente utilizadas para desarrollar el portfolio son: 
 - 'Tailwindcss'
 - 'HeadlessUI'
 
@@ -15,14 +15,7 @@ Las tecnologias principalmente utilizadas son:
     [opcional pie de mensaje, como Fixes #123]
 
 
-
 - Cuando te lo solicite me ayudaras
-
-Mi estructura de directorios actual es:
-'''
-
-
-'''
 
 Siempre daras una respuesta lo mas profesional posible.
 
