@@ -98,7 +98,7 @@ const Portfolio = () => {
                   className="flex items-center px-4 py-2 text-sm text-white bg-indigo-600 hover:bg-indigo-700 rounded-md transition-colors duration-300"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="white">
-                    <path d="M12 0C5.37 0 0 5.373..."></path>
+                    <path d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577v-2.024c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.755-1.333-1.755-1.089-.745.082-.729.082-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.494.997.107-.775.42-1.305.763-1.605-2.665-.303-5.466-1.335-5.466-5.931 0-1.311.469-2.382 1.236-3.222-.124-.303-.536-1.524.118-3.176 0 0 1.008-.323 3.301 1.23A11.52 11.52 0 0112 6.807c1.02.004 2.046.138 3.003.404 2.292-1.553 3.3-1.23 3.3-1.23.655 1.653.243 2.874.119 3.176.767.84 1.236 1.911 1.236 3.222 0 4.609-2.805 5.625-5.479 5.921.432.372.816 1.103.816 2.222v3.293c0 .319.192.694.801.576C20.565 21.796 24 17.299 24 12c0-6.627-5.373-12-12-12z" />
                   </svg>
                   {repo.name}
                 </a>
@@ -113,7 +113,7 @@ const Portfolio = () => {
                 className="flex items-center px-4 py-2 mt-4 text-sm text-black bg-white hover:bg-gray-200 rounded-md transition-colors duration-300"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="black">
-                  <path d="M12 0C5.37 0 0 5.373..."></path>
+                  <path d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577v-2.024c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.755-1.333-1.755-1.089-.745.082-.729.082-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.494.997.107-.775.42-1.305.763-1.605-2.665-.303-5.466-1.335-5.466-5.931 0-1.311.469-2.382 1.236-3.222-.124-.303-.536-1.524.118-3.176 0 0 1.008-.323 3.301 1.23A11.52 11.52 0 0112 6.807c1.02.004 2.046.138 3.003.404 2.292-1.553 3.3-1.23 3.3-1.23.655 1.653.243 2.874.119 3.176.767.84 1.236 1.911 1.236 3.222 0 4.609-2.805 5.625-5.479 5.921.432.372.816 1.103.816 2.222v3.293c0 .319.192.694.801.576C20.565 21.796 24 17.299 24 12c0-6.627-5.373-12-12-12z" />
                 </svg>
                 View Project
               </a>
@@ -125,7 +125,7 @@ const Portfolio = () => {
             <div className="mb-6 px-4 sm:px-6">
               <h2 className="text-xl sm:text-2xl font-semibold text-primary">Prompt Code Assistant</h2>
               <p className="mt-4 text-sm sm:text-base text-textSecondary">
-                Prompt Code Assistant is a desktop application built with Tkinter that helps generate personalized prompts for Python projects. 
+                Prompt Code Assistant is a desktop application built with Tkinter that helps generate personalized prompts for software projects. 
                 The user selects a base prompt, a project folder, and specific files, and the app automatically builds a prompt by combining the 
                 folder structure and content of the selected files.
               </p>
